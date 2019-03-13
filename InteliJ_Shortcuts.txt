@@ -2,6 +2,5 @@ Code --> Generate - Adds constructor and getters and setters
 
 Multiple Custsor - Alt + Shift + click multiple spots.
 
-
-
+alt + insert - Creates new test
 

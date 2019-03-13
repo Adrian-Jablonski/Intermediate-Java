@@ -31,6 +31,8 @@ public class CreditorTest {
         // fail(); // Force Fail
     }
 
+
+
     @Test
     public void addingFundsIncrementsAvailableFunds() throws Exception {
         //Arrange
@@ -62,5 +64,12 @@ public class CreditorTest {
         creditor.refund();
 
         assertEquals(0, creditor.getAvailableFunds());
+    }
+
+    @Test(expected = NotEnoughFundsException.class)
+    public void checkIfEnoughFunds() throws Exception {
+        creditor.addFunds(25);
+
+        creditor.deduct(40);
     }
 }

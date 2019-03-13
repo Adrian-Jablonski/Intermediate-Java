@@ -1,0 +1,14 @@
+CORRECT
+C - What happens when the unit receives data that doesn’t Conform to the expected format?
+
+O - Is the Ordering of values returned in the expected order. Applications where listing results in a certain sort order is important, should definitely have tests proving that this works as intended.
+
+R - Make sure that you check the Range. What happens if you go below the minimum or over the maximum value allowed?
+
+R - Does this unit Reference any other code from another unit? Is that other code unit tested?
+
+E - Remember that Existence is important in most units. Are things allowed to be null? What happens if they are?
+
+C - You should check the different possible number of elements in a grouping, or Cardinality. Related to existence, always check what happens when there are 0. What happens with a single value, what happens with multiple values. This is often called 0-1-n, because none, one and some usually produce different expectations.
+
+T - Remember to always take Time into account. This can be relative as well as absolute. Like for instance, sometimes applications require things to happen in a certain order. What happens if it doesn’t?
