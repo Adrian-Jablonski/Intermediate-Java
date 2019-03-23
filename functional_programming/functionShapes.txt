@@ -1,0 +1,4 @@
+Supplier - does not accept a parameter and returns something
+Predicate - accepts a parameter and returns a boolean
+Function - Accepts a parameter and returns something
+Consumer - Accepts an argument and returns nothing
