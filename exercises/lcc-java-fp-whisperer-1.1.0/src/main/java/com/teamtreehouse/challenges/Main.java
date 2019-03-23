@@ -33,7 +33,7 @@ public class Main {
 
   public static void whisperSentencesDeclaratively(List<String> sentences) {
     // TODO: Use a method reference for Main.whisper in the forEach method of sentences
-
+    sentences.forEach(Main::whisper);
   }
 
 
