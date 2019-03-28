@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91bf6b04-eaea-424a-9b0d-d7b6f86081fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e68d535a-1799-4dfb-9ffa-ca80d6f08f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Java Annotations - Custom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAnnotationsSuppressWarnings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAnnotationsSuppressWarnings/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-fp-indeed-jobs" beforeDir="false" afterPath="$PROJECT_DIR$/../java-fp-indeed-jobs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,43 +14,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="900720492">
+    <session id="-1086172822">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="213" />
+          <entry key="java" value="1624" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="213" />
+          <entry key="JAVA" value="1624" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/math/MathUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/DocProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="94">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +72,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Blog.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Doc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state>
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,37 +84,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Comment.java">
+        <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Post.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="94">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,16 +104,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@doc</find>
+      <find>getnumann</find>
+      <find>isAnn</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/suppress_warnings/Blog.java" />
-        <option value="$PROJECT_DIR$/src/com/suppress_warnings/Comment.java" />
-        <option value="$PROJECT_DIR$/src/com/suppress_warnings/Post.java" />
-        <option value="$PROJECT_DIR$/src/com/suppress_warnings/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Doc.java" />
+        <option value="$PROJECT_DIR$/src/com/java_annotations_custom/math/MathUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/java_annotations_custom/docgen/DocProcessor.java" />
+        <option value="$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Main.java" />
       </list>
     </option>
   </component>
@@ -142,35 +138,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaAnnotationsSuppressWarnings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAnnotationsSuppressWarnings" type="462c0819:PsiDirectoryNode" />
+              <item name="Java Annotations - Custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Annotations - Custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaAnnotationsSuppressWarnings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAnnotationsSuppressWarnings" type="462c0819:PsiDirectoryNode" />
+              <item name="Java Annotations - Custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Annotations - Custom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaAnnotationsSuppressWarnings" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAnnotationsSuppressWarnings" type="462c0819:PsiDirectoryNode" />
+              <item name="Java Annotations - Custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Annotations - Custom" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="suppress_warnings" type="462c0819:PsiDirectoryNode" />
+              <item name="java_annotations_custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java Annotations - Custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Annotations - Custom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_annotations_custom" type="462c0819:PsiDirectoryNode" />
+              <item name="docgen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java Annotations - Custom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java Annotations - Custom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_annotations_custom" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553650241203" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java Annotations - Custom" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553732859998" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,8 +195,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.suppress_warnings.Main" />
-      <module name="JavaAnnotationsSuppressWarnings" />
+      <option name="MAIN_CLASS_NAME" value="com.java_annotations_custom.docgen.Main" />
+      <module name="Java Annotations - Custom" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -206,96 +215,84 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91bf6b04-eaea-424a-9b0d-d7b6f86081fe" name="Default Changelist" comment="" />
-      <created>1553649324749</created>
+      <changelist id="e68d535a-1799-4dfb-9ffa-ca80d6f08f02" name="Default Changelist" comment="" />
+      <created>1553650868100</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553649324749</updated>
+      <updated>1553650868100</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="1" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32884097" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51078165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Comment.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Doc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/suppress_warnings/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/math/MathUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="22" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java_annotations_custom/docgen/DocProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
