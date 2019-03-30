@@ -1,0 +1,37 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextField?>
+<GridPane fx:controller="sample.Controller"
+          stylesheets="/css/sample.css"
+          xmlns:fx="http://javafx.com/fxml"
+    style="-fx-font-family: Papyrus; -fx-alignment: center; -fx-hgap: 10; -fx-vgap: 10"
+>
+    <!--with inline styling-->
+
+    <Text
+          styleClass="title"
+          GridPane.rowIndex="0"
+          GridPane.columnSpan="2"
+          GridPane.halignment="CENTER"
+    >Hello</Text>
+
+    <Label text="First Name:"
+        GridPane.rowIndex="1"
+        GridPane.columnIndex="0"
+    ></Label>
+
+    <TextField fx:id="firstName"
+            GridPane.columnIndex="1"
+            GridPane.rowIndex="1"></TextField>
+
+    <Button text="Say Hello"
+            onAction="#handleSayHello"
+        GridPane.rowIndex="2"
+        GridPane.columnIndex="1"
+        GridPane.halignment="RIGHT"
+    ></Button>
+</GridPane>
