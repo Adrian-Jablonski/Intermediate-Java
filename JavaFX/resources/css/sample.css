@@ -1,0 +1,12 @@
+.title {
+        -fx-font-size: 80;
+        -fx-fill: AQUA;
+}
+
+.text-field {
+    -fx-font-family: Helvetica;
+}
+
+#firstName {
+    -fx-background-color: yellow;
+}

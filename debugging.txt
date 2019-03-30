@@ -1,0 +1,7 @@
+Debugging notes
+- Click in gutter to set debug point
+- Right click debug point for options
+	- Options include enabling, suspending, logging status to console
+	- Conditions: Used to stop debugger when a variable reaches a certain value
+- Could chanage values of variables in debug mode by right clicking value and selecting set value
+	- Useful for testing different cases
